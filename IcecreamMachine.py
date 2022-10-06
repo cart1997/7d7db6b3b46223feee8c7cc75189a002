@@ -1,6 +1,9 @@
 from enum import Enum
-from IceceamExceptions import ExceededRemainingChoicesException, InvalidChoiceException, NeedsCleaningException, OutOfStockException
-from IceceamExceptions import InvalidPaymentException
+# below make sure the first part of the from matches your folder name
+# mine is called IcecreamMachine
+# add an empty __init__.py to the tests folder if it's outside of the "IcreamMachine" folder
+from IcecreamMachine.IceceamExceptions import ExceededRemainingChoicesException, InvalidChoiceException, NeedsCleaningException, OutOfStockException
+from IcecreamMachine.IceceamExceptions import InvalidPaymentException
 
 class Usable:
     name = ""
